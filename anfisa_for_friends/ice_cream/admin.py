@@ -16,7 +16,7 @@ class CategoryAdmin(admin.ModelAdmin):
         IceCreamInline,
     )
     list_display = (
-        'title',    
+        'title',
     )
 
 
